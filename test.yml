@@ -1,0 +1,18 @@
+name: SentryPulse Test
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pass step
+        run: echo "This step passes"
+
+  failing-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail on purpose
+        run: exit 1
