@@ -1,1 +1,2 @@
 STRIPE_SECRET_KEY=sk_live_51ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijklmnopqrstuvwxyz0123456789AB
+GITHUB_TOKEN=ghp_abcdefghijklmnopqrstuvwxyz123456
